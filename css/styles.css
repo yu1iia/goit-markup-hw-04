@@ -436,7 +436,7 @@
   letter-spacing: 0.03em;
   color: var(--subtitle-dark-theme-color);
 }
-.map-address{
+.footer-contacts-details.map-address {
   color:var(--title-dark-theme-color);
 }
 .footer-logo {
