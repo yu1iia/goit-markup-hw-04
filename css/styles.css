@@ -133,7 +133,7 @@
 
   /*========HERO========*/
   .hero {
-    min-width:1600px;
+    max-width:1600px;
     margin: 0 auto;
     padding-bottom: 200px;
     padding-top: 200px;
@@ -345,7 +345,7 @@
   .clients-list {
     display: flex;
   }
-  .clients-item:not(last-child) {
+  .clients-item:not(:last-child) {
     margin-right: 30px;
   }
   .clients-link {
@@ -443,7 +443,7 @@
   display: inline-block;
   margin-bottom: 20px;
 }
-.footer-contacts-item:not(last-child) {
+.footer-contacts-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-container {
@@ -470,7 +470,7 @@
 .footer-social-list {
   display: flex;  
 }
-.footer-social-icons:not(last-child) {
+.footer-social-icons:not(:last-child) {
   margin-right: 10px;
 }
 .footer-social-link {
@@ -526,7 +526,8 @@
     letter-spacing: 0.03em;
     color: var(--main-font-color);
 }
-.services-filter-button:hover {
+.services-filter-button:hover,
+.services-filter-button:focus {
     color: var(--title-dark-theme-color);
     background-color: var(--accent-color);
 }
